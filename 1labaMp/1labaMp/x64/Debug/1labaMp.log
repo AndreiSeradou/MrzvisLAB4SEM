@@ -1,0 +1,5 @@
+﻿  1labaMp.cpp
+C:\Users\Lenovo\Desktop\учеба4сем\MPZvAI\1labaMp\1labaMp\RestoringDivision.h(26,12): warning C4101: converter: неиспользованная локальная переменная
+C:\Users\Lenovo\Desktop\учеба4сем\MPZvAI\1labaMp\1labaMp\1labaMp.cpp(23,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Lenovo\Desktop\учеба4сем\MPZvAI\1labaMp\1labaMp\1labaMp.cpp(29,11): warning C4101: divisionAlgorithm: неиспользованная локальная переменная
+  1labaMp.vcxproj -> C:\Users\Lenovo\Desktop\учеба4сем\MPZvAI\1labaMp\x64\Debug\1labaMp.exe
