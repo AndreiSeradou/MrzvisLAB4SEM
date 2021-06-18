@@ -61,14 +61,13 @@ double MatrixConverter::disjunctionOfD(int i, int j)
 
 double MatrixConverter::multiplyConjuctionOfFAndDisjunctionOfD(int i, int j)
 {
-	totalCounter += 3;
+	totalCounter++;
 	multiplyConjuctionOfFAndDisjunctionOfDCounter++;
-	sumCounter++;
-	diffirenceCounter++;
-	comparingCounter++;
+	multiplicationCounter++;
+
 	metodParallelCounter += time_of_multiplicity;
 
-	return conjunctionOfF(i, j) + disjunctionOfD(i, j) - 1 > 0 ? conjunctionOfF(i, j) + disjunctionOfD(i, j) - 1 : 0;
+	return conjunctionOfF(i, j) * disjunctionOfD(i, j);
 }
 
 double MatrixConverter::aPointB(int i, int j, int k)
